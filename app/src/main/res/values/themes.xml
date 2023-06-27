@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DistrictService" parent="Theme.Material3.DayNight.Dialog">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+    </style>
+
+
+
+    <style name="Theme.DistrictService" parent="Base.Theme.DistrictService">
+        <!-- Customize your theme here by adding additional styles and attributes -->
+        <item name="colorPrimary">@color/white</item>
+        <!-- Add more styles and attributes as needed -->
+    </style>
+
+
+</resources>
