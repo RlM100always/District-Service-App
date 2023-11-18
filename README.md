@@ -20,6 +20,10 @@ District Service is an Android app that provides information about all the distr
 <img src="https://github.com/RlM100always/District-Service-App/blob/master/upgrade/screenshot_4.png" width="20%" height="20%"/><img src="https://github.com/RlM100always/District-Service-App/blob/master/upgrade/screenshot_5.png" width="20%" height="20%"/><img src="https://github.com/RlM100always/District-Service-App/blob/master/upgrade/screenshot_1.png" width="20%" height="20%"/><img src="https://github.com/RlM100always/District-Service-App/blob/master/upgrade/screenshot_2.png" width="20%" height="20%"/><img src="https://github.com/RlM100always/District-Service-App/blob/master/upgrade/screenshot_3.png" width="20%" height="20%"/>
 <img src="https://github.com/RlM100always/District-Service-App/blob/master/upgrade/screenshot_6.png" width="20%" height="20%"/><img src="https://github.com/RlM100always/District-Service-App/blob/master/upgrade/screenshot_6.png" width="20%" height="20%"/><img src="https://github.com/RlM100always/District-Service-App/blob/master/upgrade/screenshot_7.png" width="20%" height="20%"/><img src="https://github.com/RlM100always/District-Service-App/blob/master/upgrade/screenshot_8.png" width="20%" height="20%"/>
 
+## Full Video of App : 
+[Before Video](https://www.youtube.com/shorts/mhAkzqq6nZM)
+[Upgraded UI video](https://www.youtube.com/watch?v=Wt0VJZ8Yy14)
+
 ## Technologies Used
 
 - Android SDK
