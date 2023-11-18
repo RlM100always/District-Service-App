@@ -22,6 +22,8 @@ District Service is an Android app that provides information about all the distr
 
 ## Full Video of App : 
 [Before Video](https://www.youtube.com/shorts/mhAkzqq6nZM)
+
+
 [Upgraded UI video](https://www.youtube.com/watch?v=Wt0VJZ8Yy14)
 
 ## Technologies Used
