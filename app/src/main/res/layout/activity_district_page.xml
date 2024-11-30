@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/cardviewbackground"
+    android:layout_height="match_parent"
+    tools:context=".DistrictPage">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:gravity="center"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="240dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/weikipedia"
+                android:layout_weight="1"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                android:layout_width="match_parent"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="12dp"
+                app:cardCornerRadius="20dp"
+                app:cardBackgroundColor="@color/white"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/weikipedia"
+                    android:layout_margin="40dp"
+                    android:layout_height="100dp"/>
+                <TextView
+                    android:textSize="20sp"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:text="উইকিপিডিয়া"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/documentaryVideo"
+                android:layout_weight="1"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                android:layout_width="match_parent"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="12dp"
+                app:cardCornerRadius="20dp"
+                app:cardBackgroundColor="@color/white"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/documentaryvideo"
+                    android:layout_margin="40dp"
+                    android:layout_height="100dp"/>
+                <TextView
+                    android:textSize="20sp"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:text="ডকুমেন্টারি\n ভিডিও"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_height="240dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_weight="1"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                android:layout_width="match_parent"
+                app:cardElevation="10dp"
+                android:id="@+id/map"
+                app:cardMaxElevation="12dp"
+                app:cardCornerRadius="20dp"
+                app:cardBackgroundColor="@color/white"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/map"
+                    android:layout_margin="40dp"
+                    android:layout_height="100dp"/>
+                <TextView
+                    android:textSize="20sp"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:text="ম্যাপ"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                app:cardPreventCornerOverlap="true"
+                android:layout_weight="1"
+                app:cardUseCompatPadding="true"
+                android:layout_width="match_parent"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="12dp"
+                app:cardCornerRadius="20dp"
+                android:id="@+id/famousperson"
+                app:cardBackgroundColor="@color/white"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/famousperson"
+                    android:layout_margin="40dp"
+                    android:layout_height="140dp"/>
+                <TextView
+                    android:textSize="20sp"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:text="বিখ্যাত ব্যক্তি"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_weight="1"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                android:layout_width="match_parent"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="12dp"
+                app:cardCornerRadius="20dp"
+                android:id="@+id/emergencyService"
+                app:cardBackgroundColor="@color/white"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/emergencycall"
+                    android:layout_margin="40dp"
+                    android:layout_height="120dp"/>
+                <TextView
+                    android:textSize="20dp"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:text="জরুরী সেবা"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_weight="1"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                android:layout_width="match_parent"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="12dp"
+                app:cardCornerRadius="20dp"
+                android:id="@+id/newsPaper"
+                app:cardBackgroundColor="@color/white"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/news"
+                    android:layout_margin="40dp"
+                    android:layout_height="100dp"/>
+                <TextView
+                    android:textSize="20sp"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:text=" পত্রিকা "
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</ScrollView>

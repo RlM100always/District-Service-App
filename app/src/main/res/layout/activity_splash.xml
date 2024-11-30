@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/bangladesh"
+    android:layout_height="match_parent"
+    tools:context=".splash_screen.SplashActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textIsSelectable="false"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="40dp"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        android:text="WELCOME TO DISTRIC SERVICE APP"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>
